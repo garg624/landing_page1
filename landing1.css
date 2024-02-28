@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    height: 80%;
+    width: 70%;
+    /* background-color: black; */
+    color: white;
+}
+
+header {
+    height: 12%;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 10vh;
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-weight: 200;
+}
+
+header .logo {
+
+    /* background-color: aqua; */
+    font-weight: 100;
+    margin-left: 3%;
+
+}
+
+.logo h1 {
+    font-size: 8vh;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header>h1 {
+    margin-right: 3%;
+}
+
+article {
+    height: 90%;
+    width: 100%;
+    /* background-color: blue; */
+    overflow: hidden;
+    position: relative;
+
+}
+
+.imgcontainer {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: blueviolet; */
+}
+
+.imgcontainer img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.text{
+    position: absolute;
+    z-index: 5;
+    font-size: 40px;
+    left: 12%;
+    overflow: hidden;
+    height: 80px;
+    bottom: 200px;
+    width: 200px;
+    /* background-color: aquamarine; */
+}
+
+.text h1{
+position: absolute;
+bottom: -100px;
+}
